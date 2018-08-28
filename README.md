@@ -41,4 +41,29 @@ console.log(obj["key"]);//結果は"value2"
    1. 同期処理(sync)[シンク]  
    1.非同期処理(async)[アシンク]  
  がある。
+ コード例
+ ```js
+ console.log("aaa");
+function hoge(num)
+{
+    return new Promise((resolve)=>
+    {
+        setTimeout(()=>{
+            var i=0;
+            for(var idx=1;idx<=num;idx++)
+            {
+                i+=idx;
+            }
+            resolve(i);
+        } , 10);
+    });
+}
+
+hoge(1000).then(function(good)
+{
+    console.log(good)
+    
+})
+console.log("bbb")
+ ```
  
