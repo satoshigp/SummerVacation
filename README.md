@@ -1,25 +1,35 @@
 # インターンで習得,学んだこと
 ---
 # JavaScript  
+- ##スコープ
+ スコープとは変数等が見える範囲のこと。
+ スコープにも種類がある(知っているもののみ)。
+ - グローバルスコープ  
+  1.いわゆるグローバル変数というやつでどこからでも参照可能
+ - ブロックスコープ  
+  1. 型がvarではなく、let.constの二つである。
+  1. まんまブロック単位でスコープできて、他ブロックの中に入ってしまったら、その変数を参照できない。
+ - クロージャスコープ
+ 
 - ## 三項演算子
-  ```js
-  let Hoge=0;
-  //console.logはデベロッパツールのconsole欄に表示する。
-  //ほとんどデバッグ専用
-  console.log(Hoge?Hoge:"NULL");//結果はNULL
-  ```
-  `console.log` の中で行っている事は
-  ```js
-  if(Hoge)
-    {
-      console.log(Hoge);
-    }
-    else
-    {
-      console.log("NULL")
-    }
-  ```
-  と上記の`if文`を三項演算子は省略している形になる。
+```js
+let Hoge=0;
+//console.logはデベロッパツールのconsole欄に表示する。
+//ほとんどデバッグ専用
+console.log(Hoge?Hoge:"NULL");//結果はNULL
+```
+`console.log` の中で行っている事は
+```js
+if(Hoge)
+  {
+    console.log(Hoge);
+  }
+  else
+  {
+    console.log("NULL")
+  }
+```
+と上記の`if文`を三項演算子は省略している形になる。
   
 - ## オブジェクト型
 ### 定義
