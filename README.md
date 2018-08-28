@@ -1,5 +1,27 @@
-# Javascriptの習得,学んだこと
+# インターンで習得,学んだこと
 ---
+# JavaScript  
+- ## 三項演算子
+  ```js
+  let Hoge=0;
+  //console.logはデベロッパツールのconsole欄に表示する。
+  //ほとんどデバッグ専用
+  console.log(Hoge?Hoge:"NULL");//結果はNULL
+  ```
+  `console.log` の中で行っている事は
+  ```js
+  let Hoge = 0;
+  if(Hoge)
+    {
+      console.log(Hoge);
+    }
+    else
+    {
+      console.log("NULL")
+    }
+  ```
+  と上記の`if文`を三項演算子は省略している形になる。
+  
 - ## オブジェクト型
 ### 定義
 ```js
