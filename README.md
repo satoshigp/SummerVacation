@@ -46,19 +46,23 @@ console.log(obj["key"]);//結果は"value2"
  console.log("aaa");
 function hoge(num)
 {
+//戻り値にPrimiseのインスタンスを生成する
     return new Promise((resolve)=>
     {
+    //setTimeoutとはJS内での一般的な非同期処理である。
         setTimeout(()=>{
             var i=0;
             for(var idx=1;idx<=num;idx++)
             {
                 i+=idx;
             }
+            //Promiseを生成した際に引数の中にさらに引数を渡してあげる。
             resolve(i);
         } , 10);
     });
 }
-
+//呼び出しは初めに宣言した関数名.then(function(引数)){処理})
+//と初めて使う人からしたら魔法の言葉
 hoge(1000).then(function(good)
 {
     console.log(good)
