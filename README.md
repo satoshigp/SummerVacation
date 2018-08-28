@@ -10,7 +10,6 @@
   ```
   `console.log` の中で行っている事は
   ```js
-  let Hoge = 0;
   if(Hoge)
     {
       console.log(Hoge);
