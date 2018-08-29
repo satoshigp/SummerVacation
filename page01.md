@@ -6,7 +6,7 @@
 --- 
 
 
-[次へ](https://github.com/satoshigp/SummerVacation/blob/master/page01.md)
+[次へ](https://github.com/satoshigp/SummerVacation/blob/master/page02.md)
 
 # インターンで習得,学んだこと
 ---
