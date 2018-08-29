@@ -5,6 +5,9 @@
  - ## 8月
 --- 
 
+
+[次へ](https://github.com/satoshigp/SummerVacation/edit/master/page01.md)
+
 # インターンで習得,学んだこと
 ---
 # JavaScript  
