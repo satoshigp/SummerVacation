@@ -76,12 +76,6 @@ console.log(obj["key"]);//結果は"value2"
 ```
 ---
  - ## 非同期処理
- 　- `非同期`とは？
-  まずコードの評価の仕様として
-   1. 同期処理(sync)[シンク]  
-   1.非同期処理(async)[アシンク]  
- がある。
- コード例
  ```js
  console.log("aaa");
 function hoge(num)
