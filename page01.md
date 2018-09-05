@@ -18,10 +18,6 @@
     1. After Effectsのスクリプトの作成
     2. 自社開発を行っているゲームの修正
     3. 自主学習
-    
-     
-  
-[次へ](https://github.com/satoshigp/SummerVacation/blob/master/page02.md)
 
 # インターンで習得,学んだこと
 ---
@@ -37,3 +33,6 @@
 - VirtualBox
 - XAMPP
 - VSCode
+
+
+[次へ](https://github.com/satoshigp/SummerVacation/blob/master/page02.md)
